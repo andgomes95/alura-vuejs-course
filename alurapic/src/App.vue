@@ -14,20 +14,13 @@ export default {
   data(){
     return{
       titulo :'Alurapic',
-      fotos:[ {
-        url: 'https://cdn.myanimelist.net/images/anime/1223/96541.jpg',
-        alt: 'fma'
-      },
-      {
-        url: 'https://cdn.myanimelist.net/images/anime/1548/116226.jpg',
-        alt: 'slime'
-      },
-      {
-        url: 'https://cdn.myanimelist.net/images/anime/1252/115539.jpg',
-        alt: 'dragon'
-      },
-      ]
+      fotos:[]
     }
+  },
+  created() {
+    this.$http.get('http://localhost:3000/v1/fotos')
+      .then(res => res.json())
+      .then(fotos => this.fotos = fotos, err => console.log(err));
   }
 }
 </script>
