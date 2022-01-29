@@ -1,6 +1,6 @@
 # alurapic
 
-> A Vue.js project de uma lista de fotos com busca
+> A Vue.js project de uma lista de fotos com busca. Ao dar duplo clique no titulo, a imagem desaparece/aparece
 
 ## Build Setup
 
