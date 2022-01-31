@@ -1,6 +1,7 @@
 # alurapic
 
-> A Vue.js project de uma lista de fotos com busca. Ao dar duplo clique no titulo, a imagem desaparece/aparece
+> A Vue.js project de uma lista de fotos com busca. 
+> Feito seguindo as aulas da alura.com.br - Curso de Vue.js parte 2: construindo SPA
 
 ## Build Setup
 
