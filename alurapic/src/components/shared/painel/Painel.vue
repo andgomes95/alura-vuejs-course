@@ -53,4 +53,8 @@ export default {
     transition: opacity .5s;
   }
 
+  .painel-conteudo {
+    overflow: hidden;
+  }
+
 </style>
